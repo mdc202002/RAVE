@@ -45,6 +45,6 @@ setuptools.setup(
         "rave = scripts.main_cli:main",
     ]},
     install_requires=requirements.split("\n"),
-    python_requires='<=3.8',
+    python_requires='',
     include_package_data=True,
 )
